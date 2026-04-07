@@ -1,0 +1,3 @@
+Ollama z modelem Bielik
+Kompilator MinGW (MSYS2)
+Biblioteka Qt 6
