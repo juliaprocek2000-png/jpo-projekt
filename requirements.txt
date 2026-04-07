@@ -1,3 +1,6 @@
-Ollama z modelem Bielik
-Kompilator MinGW (MSYS2)
-Biblioteka Qt 6
+Wymagania systemowe:
+1. Kompilator: MinGW-w64 (GCC 15.2.0)
+2. Narzędzia: MSYS2, Git
+3. AI: Ollama (Lokalny serwer API)
+4. Model: speakleash/bielik-11b-v2.3-instruct:q4_k_m
+5. Biblioteki: Qt 6 (do GUI)
