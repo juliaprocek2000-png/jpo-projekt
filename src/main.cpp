@@ -1,16 +1,12 @@
-/**
- * @file main.cpp
- * @brief Glowny plik aplikacji analizujacej dokumentacje przy uzyciu modelu Bielik.
- * @author Julia
- */
-
 #include <iostream>
 
 /**
- * @brief Punkt wejscia do aplikacji.
- * @return int Status zakonczenia programu.
+ * @brief Glowna funkcja programu.
  */
 int main() {
     std::cout << "Analizator Bielik - Projekt JPO gotowy!" << std::endl;
+    std::cout << "Nacisnij Enter, aby zamknac..." << std::endl;
+    
+    std::cin.get(); // To zatrzyma program, zebys zdazyla przeczytac napis
     return 0;
 }
