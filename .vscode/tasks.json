@@ -6,6 +6,7 @@
             "label": "Kompiluj Projekt Bielik",
             "command": "C:/msys64/mingw64/bin/g++.exe",
             "args": [
+                
                 "-fdiagnostics-color=always",
                 "-g",
                 "${workspaceFolder}/src/*.cpp",
