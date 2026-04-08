@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Projekt JPO: src Directory Reference</title>
+<title>Projekt JPO: BielikClient Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('dir_68267d1309a1af8e8297ef4c3efbcdba.html','',''); });
+$(function(){initNavTree('class_bielik_client.html','','class_bielik_client-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -88,15 +88,62 @@ $(function(){initNavTree('dir_68267d1309a1af8e8297ef4c3efbcdba.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">src Directory Reference</div></div>
+  <div class="headertitle"><div class="title">BielikClient Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Klasa realizująca komunikację z modelem Bielik w celu upraszczania języka.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_bielik_client_8h_source.html">BielikClient.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-files" class="groupheader"><a id="files" name="files"></a>
-Files</h2></td></tr>
-<tr class="memitem:BielikClient_2Ecpp" id="r_BielikClient_2Ecpp"><td class="memItemLeft"><span class="icondoc"><div class="doc-icon"></div></span>&#160;</td><td class="memItemRight"><a class="el" href="_bielik_client_8cpp.html">BielikClient.cpp</a></td></tr>
-<tr class="memdesc:_bielik_client_8cpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementacja metod klasy <a class="el" href="class_bielik_client.html" title="Klasa realizująca komunikację z modelem Bielik w celu upraszczania języka.">BielikClient</a>. <br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a01df80637ee63a193dc74996d79b7857" id="r_a01df80637ee63a193dc74996d79b7857"><td class="memItemLeft">std::string&#160;</td><td class="memItemRight"><a class="el" href="#a01df80637ee63a193dc74996d79b7857">zapytajBielika</a> (const std::string &amp;trescAkademicka)</td></tr>
+<tr class="memdesc:a01df80637ee63a193dc74996d79b7857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przetwarza tekst akademicki na język zrozumiały dla przedszkolaka.  <br /></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Klasa realizująca komunikację z modelem Bielik w celu upraszczania języka. </p>
+<ul>
+<li>Klasa ta przygotowuje odpowiednie instrukcje (prompty) dla modelu AI, aby skomplikowane treści naukowe stały się zrozumiałe dla laików i dzieci. </li>
+</ul>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a01df80637ee63a193dc74996d79b7857" name="a01df80637ee63a193dc74996d79b7857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01df80637ee63a193dc74996d79b7857">&#9670;&#160;</a></span>zapytajBielika()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string BielikClient::zapytajBielika </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>trescAkademicka</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Przetwarza tekst akademicki na język zrozumiały dla przedszkolaka. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trescAkademicka</td><td>Tekst źródłowy zawierający żargon naukowy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::string Tekst uproszczony z użyciem analogii i prostych słów. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>rzucany w przypadku braku połączenia z modelem. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>include/<a class="el" href="_bielik_client_8h_source.html">BielikClient.h</a></li>
+<li>src/<a class="el" href="_bielik_client_8cpp.html">BielikClient.cpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
@@ -110,7 +157,7 @@ Files</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>src</b></li>
+    <li class="navelem"><a href="class_bielik_client.html">BielikClient</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
   </ul>
 </div>

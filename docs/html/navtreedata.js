@@ -25,6 +25,14 @@
 var NAVTREE =
 [
   [ "Projekt JPO", "index.html", [
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ]
+      ] ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
     ] ]
@@ -33,7 +41,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_bielik_client_8h_source.html"
+"_bielik_client_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
